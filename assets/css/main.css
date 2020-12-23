@@ -131,6 +131,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 0.7em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -146,13 +147,13 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 0.8em;
 		line-height: 1.5em;
 	}
 
@@ -201,7 +202,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.075);
+		background:#00F6F1;
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
@@ -2160,13 +2161,13 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 0.8em;
 		margin-top: -1em;
 		line-height: 1.75em;
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 0.7em;
 		margin-top: -0.8em;
 		line-height: 1.75em;
 	}
@@ -2174,7 +2175,7 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 0.9em;
+		font-size: 0.6em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
 	}
@@ -2196,6 +2197,9 @@ input, select, textarea {
 
 	footer.major {
 		margin: 4em 0 0 0;
+	}
+	.casos-de-uso {
+		font-size: 14px;
 	}
 
 /* Form */
@@ -2578,7 +2582,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -2842,7 +2846,7 @@ input, select, textarea {
 		font-weight: 300;
 		height: 3em;
 		line-height: 3em;
-		padding: 0 2.25em;
+		padding: 0 1em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -3057,7 +3061,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			background-image: url("images/centrodeayuda.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3123,7 +3127,7 @@ input, select, textarea {
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 2em;
 			top: 0;
 			width: 28em;
 		}
@@ -3451,8 +3455,8 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-color: #00ADA8;
+		background-image: url("../../images/banner2.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3471,10 +3475,6 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3486,7 +3486,7 @@ input, select, textarea {
 
 		#banner .content {
 			display: inline-block;
-			margin-right: 1%;
+			margin-right: 20%;
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
@@ -3501,13 +3501,16 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 2.5em;
+					font-size: 3.5em;
 					margin: 0;
+					text-shadow: 1px 1px 1px #4d4d4d
 				}
 
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
+					font-weight: 400;
+					text-shadow: 1px 1px 1px #4d4d4d
 				}
 
 			#banner .content .image {
@@ -3790,7 +3793,7 @@ input, select, textarea {
 			header h4 + p,
 			header h5 + p,
 			header h6 + p {
-				font-size: 0.9em;
+				font-size: 0.6em;
 			}
 
 			header.major {
