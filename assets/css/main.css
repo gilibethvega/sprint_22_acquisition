@@ -1900,6 +1900,9 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 5em;
 						}
+					#titleBar .title {
+						display: none;
+					}
 
 		}
 
@@ -2205,6 +2208,7 @@ input, select, textarea {
 		width: 20%;
 		margin: 20px;
 	}
+
 
 /* Form */
 
